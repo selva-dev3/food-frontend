@@ -50,7 +50,6 @@ const PlaceOrder = () => {
     }
     else{
       alert("Error")
-      console.log('order',response.data.error)
     }
   }
   const navigate = useNavigate()
