@@ -28,6 +28,7 @@ const PlaceOrder = () => {
   const placeOrder = async(event) => {
     event.preventDefault();
     let orderItems = [];
+    console.log("place order",food_list)
     food_list.map((item) =>{
       if(cartItems[item._id] > 0 ){
         let itemInfo = item;
