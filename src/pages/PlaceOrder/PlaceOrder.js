@@ -51,7 +51,7 @@ const PlaceOrder = () => {
     }
     else{
       console.log(response.data)
-      alert("Errorhhjjhhj")
+      alert(response.data)
     }
   }
   const navigate = useNavigate()
